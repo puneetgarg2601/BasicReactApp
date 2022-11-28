@@ -1,0 +1,29 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  margin-bottom: 20px;
+  font-weight: 800;
+  line-height: 1.5;
+  font-size: 1.1em;
+  /* padding: 0; */
+  border: 1px solid rgb(222, 218, 218);
+}
+.form__label {
+  font-weight: 800;
+  margin-bottom: 12px;
+  font-size: 1.15em;
+}
+.form__button {
+  font-weight: 500;
+  font-size: 1.15em;
+  padding: 10px 5px;
+  letter-spacing: 1px;
+  width: 120px;
+  border-radius: 0;
+  background-color: rgb(58, 1, 58);
+  color: white;
+  cursor: pointer;
+}
