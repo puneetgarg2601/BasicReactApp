@@ -20,6 +20,7 @@ const NewUser = (props) => {
     } else {
       userDetails.age = parseInt(userDetails.age);
       props.onAdd(userDetails);
+      setUserDetails({ name: "", age: "" });
     }
   };
   return (
@@ -46,9 +47,6 @@ const NewUser = (props) => {
           type="number"
           name="age"
           id="age"
-          min="1"
-          max="100"
-          step="1"
         />
         <button className={styles.form__button}>Add User</button>
       </form>
